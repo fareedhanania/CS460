@@ -1,0 +1,257 @@
+﻿input[type=text] {
+	border-width: 2px;
+	border-color: #4E79CB;
+	font-size: 14px;
+	font-family: Ebrima;
+	width: auto;
+	height: auto;
+	text-align: left;
+	line-height: normal;
+	vertical-align: text-top;
+	border: 2px #4E79CB solid;
+}
+input[type=password] {
+	border-width: 2px;
+	border-color: #4E79CB;
+	font-size: 14px;
+	font-family: Ebrima;
+	width: auto;
+	height: auto;
+	text-align: left;
+	line-height: normal;
+	vertical-align: text-top;
+	border: 2px #4E79CB solid;
+}input[type=radio] {
+	display: inline;
+	border-width: 2px;
+	border-color: black;
+}
+input[type=checkbox] {
+	display: inline;
+	border-width: 2px;
+	border-color: black;
+	font-family: Ebrima;
+	font-size: 14px;
+}
+#tableC {
+	width: 80%;
+}
+#submit {
+	background-color: #4E79CB;
+	padding: .5em;
+	border-radius: 6px;
+	color: #fff;
+	font-family: 'Ebrima';
+	font-size: 20px;
+	text-decoration: bold;
+	border: none;
+}
+#submit:hover {
+	border: 2px solid black;
+}
+#search {
+	background-color:white;
+	border-color:#4E79CB;
+	padding: .5em;
+	border-radius: 6px;
+	color: #4E79CB;
+	font-family: 'Ebrima';
+	font-size: 20px;
+	text-decoration: bold;
+}
+#search:hover {
+	border: 2px solid black;
+}
+#question {
+	margin: 0;
+	font-family: Ebrima;
+	font-size: 16px;
+	font-weight: bold;
+}
+#introduction {
+	margin: 0;
+	font-family: Ebrima;
+	font-size: 22px;
+	font-weight: bold;
+}
+#error{
+	font-family:Ebrima;
+	font-size:14px;
+	color:red;
+}
+#welcome {
+	font-family: Ebrima;
+	font-size: 24px;
+	font-weight: bold;
+	color:#4E79CB;
+}
+#like_button {
+	border:none;
+	background:none;
+}
+ul#menu {
+	padding: 0;
+}
+ul#menu li {
+	display: inline;
+}
+ul#menu li a {
+	color: black;
+	padding: 100px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+	font-family: Ebrima;
+	font-weight: bold;
+	font-size: 20px;
+}
+ul#menu li a:hover {
+	text-decoration: underline;
+}
+.dropdown-check-list {
+	display: inline-block;
+}
+.dropdown-check-list .anchor {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 50px 5px 10px;
+	border: 1px solid #ccc;
+}
+.dropdown-check-list .anchor:after {
+	position: absolute;
+	content: "";
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	padding: 5px;
+	right: 10px;
+	top: 20%;
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+	right: 8px;
+	top: 21%;
+}
+.dropdown-check-list ul.items {
+	padding: 2px;
+	display: none;
+	margin: 0;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+.dropdown-check-list ul.items li {
+	list-style: none;
+}
+.dropdown-check-list.visible .anchor {
+	color: black;
+	font-weight:bold;
+}
+.dropdown-check-list.visible .items {
+	display: block;
+}
+#Gender, #YOG, #Athlete, #ClassCode, #Location, #CleaningHabits, #SmokingHabits, #StudyHabits, #DrinkingHabits {
+background:#4E79CB;
+font-family:Ebrima;
+color:white;	
+}
+li {
+	font-family:Ebrima;
+}
+#name{
+	color:#0075BE;
+	text-decoration:underline;
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:bold;
+}
+#information {
+	color:gray;
+	font-family:Ebrima;
+	font-size:14px;
+	font-style:italic;
+}
+#aboutme {
+	font-family:Ebrima;
+	font-size:14px;
+	color:black;
+}
+tr {
+	border: thick black solid;
+}
+#searchbox {
+	vertical-align:middle
+}ul#menu li {
+	display: inline;
+}
+ul#menu li a {
+	color: black;
+	padding: 100px 20px;
+	font-family: Ebrima;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul#menu li a:hover {
+	text-decoration: underline;
+}
+#descrip {
+	font-family: Ebrima;
+	text-decoration: none;
+	font-style: italic;
+}
+#story{
+font-family:Ebrima;
+font-size:14px;
+}
+#formQuestion {
+	font-family:Ebrima;
+	font-size: 16px;
+	color:#4E79CB;
+	font-weight:bold;
+}
+#formAnswer{
+	font-family:Ebrima;
+	font-size:14px;
+	color:black;
+}
+ul#tabs li {
+	display: inline;
+	color: #FFFFFF;
+}
+ul#tabs li a#tab {
+	color: black;
+	padding: 10px 10px 10px 10px;
+	font-family: Ebrima;
+	font-size: 20px;
+	text-decoration: none;
+	border: solid;
+	border-color: #0075BE;
+	border-width: 1px 1px 1px 1px;
+}
+ul#tabs li a#tab:hover {
+	text-decoration: underline;
+}
+#selected a#tab{
+	border: #4E79CB solid;
+	border-width: 1px 1px 0 1px;
+	font-weight: bold;
+	background: #0075BE;
+	padding: 0;
+	color: #FFFFFF;
+}tr#result {
+	border: thick black solid;
+	height:120px;
+}table#results{
+	border: 1px solid;
+	border-color: #0075BE;
+}
+#Gender, #YOG, #Athlete, #ClassCode, #Location, #CleaningHabits, #SmokingHabits, #StudyHabits, #DrinkingHabits {
+background:#4E79CB;
+font-family:Ebrima;
+color:white;	
+}
+
+
